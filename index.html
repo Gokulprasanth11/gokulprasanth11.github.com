@@ -3,80 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gokul Prasanth | Resume</title>
+    <title>Gokul Prasanth | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Gokul Prasanth</h1>
-        <p>Embedded Software Engineer | Circuit Design Enthusiast</p>
-        <div class="contact-info">
-            <a href="mailto:gokulsg32@gmail.com">gokulsg32@gmail.com</a> | 
-            <a href="https://www.linkedin.com/in/gokul-prasanth-58b8b021b/">LinkedIn</a> | 
-            <a href="tel:+919656027197">+91 96560 27197</a>
+        <div class="container">
+            <h1>Gokul Prasanth</h1>
+            <p>Electronics Engineer | Embedded Systems Specialist</p>
+            <div class="contact-info">
+                <a href="mailto:gokulsg32@gmail.com">gokulsg32@gmail.com</a> |
+                <a href="https://www.linkedin.com/in/gokulprasanth11">LinkedIn</a> |
+                <a href="https://github.com/GokulPrasanth11">GitHub</a> |
+                <a href="tel:+919656027197">+91 96560 27197</a>
+            </div>
         </div>
     </header>
 
-    <section id="about">
+    <nav>
+        <ul class="navbar">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <p>I am passionate about circuit design, automation, and embedded systems. My enthusiasm for computer science and programming allows me to design intelligent systems and develop innovative solutions, bridging the gap between electronic hardware and software.</p>
+        <p>I am a highly motivated Electronics Engineer specializing in embedded systems, BLE, and PCB design. With a passion for creating innovative solutions, I excel in developing and testing hardware and firmware for industrial monitoring systems and sensor-based applications.</p>
     </section>
 
-    <section id="education">
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div>
+                <h3>Programming</h3>
+                <p>C, Python</p>
+            </div>
+            <div>
+                <h3>Hardware Design</h3>
+                <p>PCB Design (KiCad, EasyEDA), Circuit Design</p>
+            </div>
+            <div>
+                <h3>Embedded Systems</h3>
+                <p>nRF52, ATmega328P, BLE, BLE Mesh</p>
+            </div>
+            <div>
+                <h3>Protocols</h3>
+                <p>BLE, BLE Mesh, I2C, SPI</p>
+            </div>
+            <div>
+                <h3>Simulation</h3>
+                <p>MATLAB (Simulink), Proteus</p>
+            </div>
+            <div>
+                <h3>Tools</h3>
+                <p>Git, LaTeX, Zephyr OS</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>Work Experience</h2>
+        <div>
+            <h3>Electronics Engineer | ProSense</h3>
+            <p>May 2024 - Present</p>
+            <ul>
+                <li>Designed cost-effective PCB layouts for sensor applications using KiCad.</li>
+                <li>Developed firmware for nRF52 with Zephyr OS, enabling BLE and BLE Mesh communication.</li>
+                <li>Diagnosed software issues using BLE sniffers, RTT terminals, and VS Code debugging tools.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Junior Research Fellow | IIT Guwahati</h3>
+            <p>Nov 2023 - Mar 2024</p>
+            <ul>
+                <li>Contributed to the "Study of Peak Shaving in Drilling Rigs" project.</li>
+                <li>Mapped industrial data for Oil India Limited’s drilling rigs.</li>
+                <li>Gained insights into industrial data collection and analysis techniques.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education" class="section">
         <h2>Education</h2>
         <ul>
-            <li>B.Tech in Electrical and Electronics Engineering - APJ Abdul Kalam Technological University (CGPA: 7.82)</li>
-            <li>12th Grade, CBSE - Christ Central School and Junior College (77%)</li>
-            <li>10th Grade, CBSE - Christ Central School and Junior College (CGPA: 8.80)</li>
+            <li>B.Tech in Electrical and Electronics Engineering, APJ Abdul Kalam Technological University (CGPA: 7.82)</li>
         </ul>
     </section>
 
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <p><strong>Junior Research Fellow</strong> <br> Indian Institute of Technology Guwahati <br> November 2023 - March 2024</p>
-    </section>
-
-    <section id="skills">
-        <h2>Technical Skills</h2>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
         <ul>
-            <li>Programming Languages: C, Python</li>
-            <li>Microcontrollers: nRF52, ATmega328P, PIC16F877A</li>
-            <li>Protocols: BLE, I2C, SPI</li>
-            <li>PCB Design: EasyEDA, KiCad</li>
-            <li>Simulation: MATLAB (Simulink), Proteus</li>
-            <li>Operating System: ZephyrOS</li>
+            <li><strong>Speed Control of Three-Phase Induction Motor:</strong> Developed a VFD system using ATmega328P for precise motor control via PWM.</li>
         </ul>
     </section>
 
-    <section id="certifications">
+    <section id="certifications" class="section">
         <h2>Certifications</h2>
         <ul>
             <li>Bluetooth Low Energy Fundamentals - Nordic Semiconductor</li>
-            <li>Git, GitHub & Markdown Crash Course - Udemy</li>
             <li>nRF Connect SDK Fundamentals - Nordic Semiconductor</li>
-            <li>Career Essentials in Generative AI - Microsoft and LinkedIn</li>
+            <li>Git, GitHub & Markdown Crash Course - Udemy</li>
+            <li>Career Essentials in Generative AI - Microsoft</li>
         </ul>
     </section>
 
-    <section id="projects">
-        <h2>College Project</h2>
-        <p>Speed Control of Three Phase Induction Motor</p>
-    </section>
-
-    <section id="hobbies">
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Chess</li>
-            <li>Sports and games</li>
-            <li>Exploring Novel Subjects</li>
-            <li>Films and Television</li>
-        </ul>
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via email or LinkedIn for collaborations and opportunities.</p>
+        <div class="contact-info">
+            <a href="mailto:gokulsg32@gmail.com">gokulsg32@gmail.com</a> |
+            <a href="https://www.linkedin.com/in/gokulprasanth11">LinkedIn</a>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Gokul Prasanth</p>
+        <p>&copy; 2025 Gokul Prasanth. All Rights Reserved.</p>
     </footer>
 </body>
-    </html>
-
-    
+</html>
